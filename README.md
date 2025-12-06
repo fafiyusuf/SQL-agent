@@ -2,13 +2,31 @@
 
 A sophisticated SQL agent that converts natural language questions into SQL queries with safety checks and human-readable results. Built with LangGraph and Google Gemini (or OpenAI).
 
-## 🎯 Features
+## � Quick Start - Web Interface
 
+**Launch the web UI in seconds:**
+```bash
+./run_ui.sh
+```
+Then open http://localhost:8501 in your browser!
+
+**Or use the command line:**
+```bash
+python main.py
+```
+
+For detailed web UI guide, see [WEB_UI_GUIDE.md](WEB_UI_GUIDE.md)
+
+## �🎯 Features
+
+- **🌐 Modern Web Interface**: Beautiful Streamlit UI with visualizations
 - **Natural Language Understanding**: Ask questions in plain English
 - **Schema-Aware Query Generation**: Automatically learns your database structure
 - **Multi-Layer Safety Checks**: Code-based + LLM-based verification
 - **Query Refinement Loop**: Automatically refines unsafe queries
 - **Human-Readable Results**: Converts data into conversational answers
+- **📊 Data Visualization**: Auto-generate charts from query results
+- **💾 Export Options**: Download results as CSV or JSON
 - **Interactive Mode**: Chat-like interface for database exploration
 - **Flexible LLM Support**: Works with Google Gemini 2.5 Flash or OpenAI GPT-4
 
