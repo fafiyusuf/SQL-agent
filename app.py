@@ -136,7 +136,7 @@ def display_result(result):
     # Display answer
     st.markdown("### <i class='fas fa-comment-dots'></i> Answer", unsafe_allow_html=True)
     if result.get('success'):
-        st.markdown(f"<div style='background-color: #d4edda; padding: 1rem; border-radius: 0.5rem; border-left: 4px solid #28a745;'><i class='fas fa-check-circle' style='color: #28a745;'></i> {result['answer']}</div>", unsafe_allow_html=True)
+        st.markdown(f"<div style='background-color: #28a745; padding: 1rem; border-radius: 0.5rem; border-left: 4px solid #28a745;'><i class='fas fa-check-circle' style='color: #28a745;'></i> {result['answer']}</div>", unsafe_allow_html=True)
     else:
         st.markdown(f"<div style='background-color: #f8d7da; padding: 1rem; border-radius: 0.5rem; border-left: 4px solid #dc3545;'><i class='fas fa-times-circle' style='color: #dc3545;'></i> {result['answer']}</div>", unsafe_allow_html=True)
     
